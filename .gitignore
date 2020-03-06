@@ -1,0 +1,16 @@
+.DS_Store
+
+node_modules/
+
+# Editor directories and files
+.idea
+.vscode
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.swp
+*.sublime-workspace
+
