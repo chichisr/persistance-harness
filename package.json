@@ -4,7 +4,13 @@
   "description": "persistance strategy profiler",
   "main": "index.js",
   "scripts": {
-    "start": "node src/servers.js",
+    "build": "npm run build:shared",
+    "build:shared": "npm run clean:shared && node src/generateShared.js",
+    "clean": "npm run clean:shared",
+    "clean:shared": "npm run clean:shared:parent1 && npm run clean:shared:parent2",
+    "clean:shared:parent1": "rm -f src/static/parent1/shared.js",
+    "clean:shared:parent2": "rm -f src/static/parent2/shared.js",
+    "start": "npm run build && node src/servers.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chi-chi Wang<cwang@shoprunner.com>",

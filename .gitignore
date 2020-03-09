@@ -14,3 +14,5 @@ node_modules/
 *.swp
 *.sublime-workspace
 
+# Generated files
+src/static/**/shared.js
