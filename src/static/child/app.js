@@ -1,1 +1,1 @@
-console.log('[child] Script loaded');
+console.log('[child:home] Script loaded');
