@@ -2,9 +2,32 @@
 <html>
     <head>
         <title>1800Wolf</title>
-        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="shared.js"></script>
+        <style>
+            iframe {
+                border: 3px solid orange;
+            }
+
+            .menu {
+                padding: 5px;
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
         <h1>1800AWWWWWOOOOOOO</h1>
+
+        <section id="Menu">
+            <h2>Menu</h2>
+            <div class="menu">
+                <button class="popup-iframe">Trigger popup iframe</button>
+                <button class="reveal-iframe">Reveal inline iframe</button>
+            </div>
+        </section>
+
+        <section id="Inline">
+            <h2>Inline Iframe</h2>
+        </section>
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
