@@ -16,7 +16,7 @@
   "author": "Chi-chi Wang<cwang@shoprunner.com>",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "vhost": "^3.0.2"
   }
 }
